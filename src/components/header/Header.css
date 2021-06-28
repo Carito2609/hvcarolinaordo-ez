@@ -1,0 +1,46 @@
+header{
+    max-width: 800px;
+    width: 100%;
+    background-image: url("headerhv1.png");
+    margin: auto;
+    min-height: 250px;
+    max-height:250px ;
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    margin-right: 30px;
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.foto img{
+   
+    max-width: 180px;
+    width: 100%;
+    border-radius: 100%;
+    border: 7px solid #FFFFFF;
+}
+
+.texto h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.texto{
+    flex-basis: 60%;
+ }
+
+.nombre{
+    color: #FF33A2;
+    text-shadow: 3px 3px 5px #FFFFFF;
+
+} 
+
+.texto h3{
+    font-weight: 300;
+    color: #000000;
+}
